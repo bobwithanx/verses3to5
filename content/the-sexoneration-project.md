@@ -2,6 +2,9 @@
 title = "The Sexoneration Project"
 type = "static"
 identifier = "the-sexoneration-project"
+[menu]
+[menu.main]
+parent = "the-sexoneration-project"
 +++
 
 <div class="theme-content " itemprop="mainEntityOfPage">

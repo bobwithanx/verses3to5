@@ -1,5 +1,8 @@
 +++
 title = "About"
+[menu]
+[menu.main]
+parent = "about"
 +++
 
 There are a lot of ladies living in you. Throughout the course of your life, you have collected a ragtag bunch who provide running commentary in your head from their own experiences. Maybe there’s the sensitive 5-year-old who always felt left out, or the angry 16-year-old who would do anything to get her parent’s attention. Maybe your story includes a serial-dating 20-something who was desperate for a partner, or maybe she was so career-minded that she completely forgot about relationships of any kind. Or maybe it’s a you from last year whose reality was about to be shifted and her life transformed into something entirely unrecognizable.

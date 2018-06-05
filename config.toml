@@ -23,6 +23,7 @@ paginate = 10
 
 [[menu.main]]
     name = "The Sexoneration Project"
+    identifier = "the-sexoneration-project"
     url  = "/the-sexoneration-project/"
     weight = 2
 
@@ -34,6 +35,7 @@ paginate = 10
 
 [[menu.main]]
     name = "About"
+    identifier = "about"
     url  = "/about/"
     weight = 4
 
@@ -102,7 +104,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = ""
+    # logo = "/img/Verses-3-To-5-Postage-Logo-150-279.png"
     address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River

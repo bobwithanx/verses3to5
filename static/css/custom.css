@@ -101,8 +101,17 @@ strong {
   letter-spacing: 0px;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>a:hover,
+.navbar-default .navbar-nav>a:focus,
+.navbar ul.nav>li.active>a,
+.navbar ul.nav>li.open>a,
 .navbar ul.nav>li>a:hover,
-.navbar ul.nav>li>a:active {
+.navbar ul.nav>li>a:active,
+.navbar ul.nav>li.active>a:active {
   background-color: #ee2a7b;
   color: #ffffff;
   border-top: none;

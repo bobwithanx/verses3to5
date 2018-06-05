@@ -1,5 +1,4 @@
 <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
-  <img src="/img/Verses-3-To-5-Postage-Logo-150-279.png">
   <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
     <div class="container">
@@ -20,8 +19,8 @@
 
       <div class="navbar-collapse collapse" id="navigation">
         <ul class="main-navigation-ul nav navbar-nav navbar-right">
-          {{ range .Site.Menus.main }}
-          <li class="nav-item {{ if $.IsMenuCurrent " main " . }}has-text-weight-bold{{ end }}">
+          {{ $currentPage := . }} {{ range .Site.Menus.main }}
+          <li class='nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
             <a class="nav-link" href="{{ .URL | absLangURL  }}">{{ .Pre }}
               <span>{{ .Name }}</span>
             </a>

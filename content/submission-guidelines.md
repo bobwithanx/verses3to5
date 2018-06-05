@@ -2,6 +2,9 @@
 title = "Submission Guidelines"
 type = "static"
 identifier = "submission-guidelines"
+[menu]
+[menu.main]
+parent = "submission-guidelines"
 +++
 
 <div style="" class="vc_col-sm-12 wpb_column column_container  _ height-full">
